@@ -44,7 +44,7 @@ function Homepix() {
   useEffect(() => {
     setIsLoading(true);
     fetch(
-      `https://pixabay.com/api/?key=24914180-4d093ee3dbdda9740af832ac2&q=nature&per_page=200&category=nature&editors_choice="true"`
+      `https://pixabay.com/api/?key=${process.env.REACT_APP_pix_key}&q=nature&per_page=200&category=nature&editors_choice="true"`
     )
       .then((res) => {
         return res.json();

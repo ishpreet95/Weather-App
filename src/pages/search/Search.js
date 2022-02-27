@@ -36,7 +36,7 @@ function Search() {
     setIsLoading(true);
     setTimeout(() => {
       fetch(
-        `http://api.openweathermap.org/geo/1.0/direct?q=${params.location}&limit=1&appid=d5715cfbcecbe308d71c483be2f44925`
+        `http://api.openweathermap.org/geo/1.0/direct?q=${params.location}&limit=1&appid=${process.env.REACT_APP_weather_key}`
       )
         .then((res) => {
           return res.json();
@@ -44,7 +44,7 @@ function Search() {
         .then((data) => {
           setPlace(data);
           fetch(
-            `http://api.openweathermap.org/data/2.5/onecall?lat=${data[0].lat}&lon=${data[0].lon}&appid=d5715cfbcecbe308d71c483be2f44925&units=metric`
+            `http://api.openweathermap.org/data/2.5/onecall?lat=${data[0].lat}&lon=${data[0].lon}&appid=${process.env.REACT_APP_weather_key}&units=metric`
           )
             .then((r) => {
               return r.json();
