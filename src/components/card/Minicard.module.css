@@ -1,0 +1,73 @@
+.minicard {
+  /* border-radius: 7px; */
+  /* border: 1px solid aliceblue; */
+  /* height: 100px; */
+  /* width: 90px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  padding: 5px;
+  background-color: rgba(12, 12, 12, 0.349);
+  /* backdrop-filter: blur(1px); */
+}
+.icon {
+  height: 100px;
+  /* width: 75px; */
+  margin: 0px;
+}
+.smallicon {
+  height: 40px;
+  /* width: 35px; */
+  margin: 0px;
+  font-family: "Poppins-Thin";
+}
+.h1 {
+  font-size: 3em;
+  margin: 5px;
+  /* font-family: "OpenSans-Bold"; */
+  font-family: "Pushster";
+}
+.h2 {
+  font-size: 2.5em;
+  margin: 5px;
+  /* font-family: "OpenSans-Light"; */
+  font-family: "Pushster";
+}
+.h3 {
+  font-size: 3em;
+  margin: 5px;
+  /* font-family: "Poppins-Regular"; */
+  font-family: "Pushster";
+}
+.h4 {
+  font-size: 3.5em;
+  margin: 5px;
+  /* font-family: "Poppins-Regular"; */
+  font-family: "Pushster";
+}
+.h5 {
+  font-size: 1.4em;
+  margin: 5px;
+  /* font-family: "Poppins-Regular"; */
+  font-family: "Pushster";
+}
+.temp {
+  font-size: 1.8em;
+  margin: 0px 2px 0px;
+  font-family: "Rubik";
+}
+
+.arrangehorizontally {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.arrangevertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,72 @@
+.todaycard {
+  /* border-radius: 7px; */
+  /* border: 1px solid aliceblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  /* backdrop-filter: blur(1px); */
+  background-color: rgba(12, 12, 12, 0.603);
+}
+.icon {
+  height: 150px;
+  width: 150px;
+  margin: 0px;
+}
+.smallicon {
+  height: 40px;
+  /* width: 35px; */
+  margin: 0px;
+  font-family: "Poppins-Thin";
+}
+.h1 {
+  font-size: 3em;
+  margin: 5px;
+  /* font-family: "OpenSans-Bold"; */
+  font-family: "Pushster";
+}
+.h2 {
+  font-size: 2.5em;
+  margin: 5px;
+  /* font-family: "OpenSans-Light"; */
+  font-family: "Pushster";
+}
+.h3 {
+  font-size: 3em;
+  margin: 5px;
+  /* font-family: "Poppins-Regular"; */
+  font-family: "Pushster";
+}
+.h4 {
+  font-size: 3.5em;
+  margin: 5px;
+  /* font-family: "Poppins-Regular"; */
+  font-family: "Pushster";
+}
+.h5 {
+  font-size: 1.4em;
+  margin: 5px;
+  /* font-family: "Poppins-Regular"; */
+  font-family: "Pushster";
+}
+.temp {
+  font-size: 5em;
+  /* margin: 5px; */
+  font-family: "Rubik";
+  /* font-family: "Rubik"; */
+}
+
+.arrangehorizontally {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.arrangevertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

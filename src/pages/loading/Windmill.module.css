@@ -1,0 +1,10 @@
+.canvas {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(to right, #232526, #414345);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+}

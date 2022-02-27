@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Pushster";
+  src: local("Pushster"), url("./fonts/Pushster-Regular.ttf") format("truetype");
+  font-weight: Regular;
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: local("Montserrat"),
+    url("./fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: Regular;
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: local("Montserrat"),
+    url("./fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: Light;
+}
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: local("Montserrat"),
+    url("./fonts/Montserrat-Thin.ttf") format("truetype");
+  font-weight: Thin;
+}
+@font-face {
+  font-family: "OpenSans-Light";
+  src: local("OpenSans"), url("./fonts/OpenSans-Light.ttf") format("truetype");
+  font-weight: Thin;
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: local("OpenSans"), url("./fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: Regular;
+}
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: local("OpenSans"), url("./fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: Bold;
+}
+@font-face {
+  font-family: "Oswald-ExtraLight";
+  src: local("Oswald"), url("./fonts/Oswald-ExtraLight.ttf") format("truetype");
+  font-weight: ExtraLight;
+}
+@font-face {
+  font-family: "Oswald-Regular";
+  src: local("Oswald"), url("./fonts/Oswald-Regular.ttf") format("truetype");
+  font-weight: Regular;
+}
+@font-face {
+  font-family: "Oswald-Bold";
+  src: local("Oswald"), url("./fonts/Oswald-Bold.ttf") format("truetype");
+  font-weight: Bold;
+}
+@font-face {
+  font-family: "Poppins-Thin";
+  src: local("Poppins"), url("./fonts/Poppins-Thin.ttf") format("truetype");
+  font-weight: Thin;
+}
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: local("Poppins"),
+    url("./fonts/Poppins-ExtraLight.ttf") format("truetype");
+  font-weight: ExtraLight;
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: local("Poppins"), url("./fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: Regular;
+}
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik"), url("./fonts/Rubik.ttf") format("truetype");
+  font-weight: Variable;
+}
+html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
