@@ -18,7 +18,7 @@ function Homeun() {
   useEffect(() => {
     setIsLoading(true);
     fetch(
-      `https://api.unsplash.com/photos/random?query=weather&client_id=f5vBOFduJm-HMavqCo6gCt8lCg6Zn_FlvDZDjiGjLpg`
+      `https://api.unsplash.com/photos/random?query=weather&client_id={API_KEY}`
     )
       .then((res) => {
         return res.json();
