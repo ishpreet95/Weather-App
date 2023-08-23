@@ -43,17 +43,21 @@ function Homepix() {
   const [loadedData, setLoadedData] = useState({});
   useEffect(() => {
     setIsLoading(true);
+    console.log(process.env.REACT_APP_pix_key);
     fetch(
       `https://pixabay.com/api/?key=${process.env.REACT_APP_pix_key}&q=nature&per_page=200&category=nature&editors_choice="true"`
     )
       .then((res) => {
+        console.log(res);
         return res.json();
       })
       .then((data) => {
-        setLoadedData(data.hits[Math.round(Math.random() * 200 - 1)]);
+        console.log(data);
+        setLoadedData(data.hits[Math.round(Math.random() * 100 - 1)]);
         setTimeout(() => {
           setIsLoading(false);
-        }, 1000);
+        }, 2000);
+        // setIsLoading(false);
       })
       .catch((err) => {
         console.log(err);
@@ -63,6 +67,7 @@ function Homepix() {
   if (isLoading) {
     return <Rain />;
   }
+  console.log(loadedData);
   document.body.style.backgroundImage = `url(${loadedData.fullHDURL})`;
   return (
     <div className={classes.outerbox}>
