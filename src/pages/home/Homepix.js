@@ -63,7 +63,7 @@ function Homepix() {
   if (isLoading) {
     return <Rain />;
   }
-  document.body.style.backgroundImage = `url(${loadedData.fullHDURL}&w=${window.innerWidth}&dpr=2)`;
+  document.body.style.backgroundImage = `url(${loadedData.fullHDURL})`;
   return (
     <div className={classes.outerbox}>
       <ServerDate />
