@@ -4,6 +4,8 @@ import { useHistory } from "react-router-dom";
 import classes from "./Homeun.module.css";
 import { FcSearch } from "react-icons/fc";
 import Unsplash from "../../components/footers/Unsplash";
+import Rain from "../loading/Rain";
+
 function Homeun() {
   const locationRef = useRef();
   let history = useHistory();
@@ -31,7 +33,7 @@ function Homeun() {
   }, []);
 
   if (isLoading) {
-    return <div>Loading..........</div>;
+    return <Rain />;
   }
   console.log(loadedData);
   return (
